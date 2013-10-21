@@ -43,7 +43,10 @@ An example ports.conf is included.
 
 Virtualhost
 -----------
-vhost conf files in sites-available/sites-enabled will then require the same port 8080 directives eg. <Virtualhost *:8080>
+vhost conf files in sites-available/sites-enabled will then require the same port 8080 directives eg. 
+```
+<Virtualhost *:8080>
+```
 
 Restart
 -------
